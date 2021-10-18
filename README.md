@@ -7,7 +7,7 @@ Time matrix, wireframes and inspiration are in the project worksheet docx:
 
 
 Functionality
-| MVP                              |          |                |               |             |
+|            MVP                   |          |                |               |             |
 | -------------------------------- | -------- | -------------- | ------------- | ----------- |
 | Component                        | Priority | Estimated time | Time invested | Actual time |
 | WireFrame                        |          |                |               |             |
