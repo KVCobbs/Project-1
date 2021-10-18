@@ -7,28 +7,22 @@ Time matrix, wireframes and inspiration are in the project worksheet docx:
 
 
 Functionality
-
-| MVP |                                  |          |                |                     |                      |
-| --- | -------------------------------- | -------- | -------------- | ------------------- | -------------------- |
-|     | Component                        | Priority | Estimated time | Time invested       | Actual time          |
-|     | WireFrame                        |          |                |                     |                      |
-|     | HTML for Homepage                | High     |                | 1 hour tuesday      | 3 hours              |
-|     | HTML for About Page              |          | 3 hours        | 4 hours             | 3 hours              |
-|     | HTML for Information page        | High     | 3 hours        | 6 hours             | 5 hours              |
-|     | HTML for News Page               |          | 3 hours        | 2 hours on tuesday  | 3 hours on wednesday |
-|     | CSS for Homepage                 |          | 2 hours        | 6 hours on thursday | 6 hours              |
-|     | CSS for About Page               |          | 4 hours        | 2 hours             | 2 hours              |
-|     | CSS for Information page         | High     | 6 hours        | 3 hours on saturday | 3 hours              |
-|     | CSS for News Page                |          | 29 hours       | 34 hours            | 36 hours             |
-|     | Media Query for Homepage         | High     | 3 hours        | 0 hours             | 0 hours              |
-|     | Media Query for About page       | High     | 3 hours        | 0 hours             | 0 hours              |
-|     | Media Query for Information page | High     | 3 hours        | 0 hours             | 0 hours              |
-|     | Media Query for News page        | High     | 3 hours        | 0 hours             | 0 hours              |
-|     | WireFrame                        |          |                |                     |                      |
-
-
-
-
+| MVP                              |          |                |               |             |
+| -------------------------------- | -------- | -------------- | ------------- | ----------- |
+| Component                        | Priority | Estimated time | Time invested | Actual time |
+| WireFrame                        |          |                |               |             |
+| HTML for Homepage                |          |                |               |             |
+| HTML for About Page              |          |                |               |             |
+| HTML for Information page        |          |                |               |             |
+| HTML for News Page               |          |                |               |             |
+| CSS for Homepage                 |          |                |               |             |
+| CSS for About Page               |          |                |               |             |
+| CSS for Information page         |          |                |               |             |
+| CSS for News Page                |          |                |               |             |
+| Media Query for Homepage         |          |                |               |             |
+| Media Query for About page       |          |                |               |             |
+| Media Query for Information page |          |                |               |             |
+| Media Query for News page        |          |                |               |             |
 
 
 
