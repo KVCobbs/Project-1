@@ -4,6 +4,8 @@ This project is a mockup between Pedro Shawn and Kenya and is a reflection of wh
 ## Planning Documents
 
 Time matrix, wireframes and inspiration are in the project worksheet docx:
+https://www.figma.com/file/aeM3gkXtWmWQ4VaEW4Temn/Untitled?node-id=0%3A1
+https://docs.google.com/document/d/114W_H3AlB2Qd4mYNUREbUhjVZ_naq1OmdleeKWciidc/edit?usp=sharing
 
 
 Functionality
