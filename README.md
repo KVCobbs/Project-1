@@ -34,5 +34,9 @@ Functionality
 | Hidden Search bar   |          |                |               |             |
 | Logo Homepage link  |          |                |               |             |
 | DarkMode            |          |                |               |             |
-| Social Media Icons with hover effect  |         |               |             |     |
+| Social Media Icons with hover effect  |         |               |             |     
+| hamburger menu with animation  |                |               |             |
+
+
+
 
