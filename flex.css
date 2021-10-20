@@ -1,0 +1,89 @@
+* {
+  box-sizing: inherit;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: silver;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.DW, .BT {
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+header {
+  color: black;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*span {*/
+/*  position: relative;*/
+/*  font-family: "Avenir Next", sans-serif;*/
+/*  font-weight: 900;*/
+/*  font-size: 64px;*/
+/*  text-transform: uppercase;*/
+/*  font-style: italic;*/
+/*  letter-spacing: 0.05em;*/
+/*  display: inline-block;*/
+/*}*/
+
+/*span:before {*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  content: attr(filter-content);*/
+
+/*  filter: url(#motion-blur-filter);*/
+/*}*/
+
+/*svg {*/
+/*  display: none;*/
+/*}*/
+
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  letter-spacing: 1px;
+}
