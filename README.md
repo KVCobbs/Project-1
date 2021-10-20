@@ -28,6 +28,8 @@ Functionality
 
 
 
+
+
  Post MVP            |          |                |               |             |
 |---------------------|----------|----------------|---------------|-------------|
 | Component           | Priority | Estimated time | Time invested | Actual time |
@@ -36,6 +38,8 @@ Functionality
 | DarkMode            |          |                |               |             |
 | Social Media Icons with hover effect  |         |               |             |     
 | hamburger menu with animation  |                |               |             |
+| Animations on the menu.        |                |               |             |             
+
 
 
 
