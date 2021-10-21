@@ -12,12 +12,40 @@
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 0;
+.header {
+  display: flex;
+  overflow: hidden;
+  background-color: goldenrod;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
 }
 
 body {
@@ -57,7 +85,6 @@ hr {
     margin: auto;
     margin-bottom: 10px;
     border: 10px outset #3CB371;
-    padding: 10px;
 }
 
 .AA, .BT, .DWMF, .JBT {
@@ -120,8 +147,9 @@ a:hover {
   text-decoration: none;
   letter-spacing: -3px;
   margin: 0;
+  margin-top: 110px;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
@@ -132,7 +160,7 @@ a:hover {
   padding: .9em .4em;
   position: absolute;
   left: 50%;
-  width: 100%;
+  width: 80%;
   top: 50%;
   display: block;
   border: 15px solid red;

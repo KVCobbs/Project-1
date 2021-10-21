@@ -43,13 +43,32 @@
     margin-top: 8px;
 }
 
-header {
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    min-height: 135px;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+banner {
   color: black;
-  height: 60vh;
+  height: 40vh;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  margin: 0;
+  margin-top: 30px;
 }
 
 .title {
