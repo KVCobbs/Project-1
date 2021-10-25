@@ -10,8 +10,8 @@
 .button {
   width: 140px;
   height: 45px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 11px;
+  font-family: Courier; 
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -79,15 +79,6 @@ banner {
   display: flex;
   height: 12vh;
   width: 30vh;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-}
-
-.areatext {
-  display: flex;
-  height: 11vh;
-  width: 70vh;
   overflow: hidden;
   justify-content: center;
   align-items: center;
