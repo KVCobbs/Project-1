@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Raleway:200');
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -14,6 +11,7 @@
 }
 
 header {
+<<<<<<< HEAD
     top: 0px;
     position: sticky;
     text-align: center;
@@ -48,6 +46,27 @@ nav a:hover {
     background-color: seagreen;
     color: black;
     border: 2px none seagreen;
+=======
+    height: 165px;
+    width: 1424px;
+}
+
+.navbar-nav > .nav-item {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+}
+.nav-link {
+    font-family: "Russo-One";
+    font-size: 30px;
+}
+.nav-img {
+    margin-right: 800px;
+>>>>>>> f04a812d158cb07933d609fccdaa5e46e6985777
 }
 
 body {
@@ -58,6 +77,28 @@ body {
 hr {
     border: 10px solid black;
     border-radius: 5px;
+}
+
+#wrapper {
+  max-width: 1050px;
+  margin: 60px auto 60px auto;
+  background-color: #DDD
+}
+#outer {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.itemwrapper {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .VF {
@@ -71,6 +112,7 @@ hr {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 #TBJ {
     font-size: 25px;
     font-style: normal;
@@ -87,6 +129,8 @@ hr {
     border: 10px outset #3CB371;
 }
 
+=======
+>>>>>>> f04a812d158cb07933d609fccdaa5e46e6985777
 .AA, .BT, .DWMF, .JBT {
     margin-bottom: 10px;
 }
@@ -97,10 +141,13 @@ hr {
 
 .wrap {
     margin: 5px;
-    margin: auto;
     padding: 15px;
     margin-bottom: 50px;
+<<<<<<< HEAD
     font-family: Courier; 
+=======
+    font-family: Georgia;
+>>>>>>> f04a812d158cb07933d609fccdaa5e46e6985777
 }
 
 a {
@@ -111,6 +158,7 @@ a:hover {
   color: white;
   text-decoration: none;
   cursor: pointer;
+<<<<<<< HEAD
 }
 
 
@@ -193,4 +241,6 @@ li:hover {
     background-color: yellow;
     color: black;
     border: 2px none yellow ;
+=======
+>>>>>>> f04a812d158cb07933d609fccdaa5e46e6985777
 }

@@ -1,172 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+*{
+    font-family: "Russo-One";
+}
 header {
-    top: 0px;
-    position: sticky;
-    text-align: center;
-    width: 100%;
+    height: 165px;
+    width: 1424px;
 }
-
-nav {
-    width: 100%;
-    height: 100px;
-    z-index: 2;
-    background-color: gray;
-}
-
-nav ul {
-    font-family: "Russo One";
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    list-style: none;
-    width: 90%;
-    height: 100px;
-    margin-top: 0px;
-    
-   
-}
-
-nav li {
-    margin-top: 30px;
-    text-align: center;
-    
-}
-
-nav a  {
-    text-decoration: none;
-    color: white;
-}
-
-nav a:hover {
-    background-color: yellow;
-    color: black;
-    border: 2px none yellow;
-}
-
-#logo {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 5px;
-    z-index: 101;
-}
-.news{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /*border: solid black 1px;*/
-    align-items: center;
-}
-/*.top{*/
-    /*border: solid red 1px;*/
-/*    font-size: 50px;*/
-/*    text-decoration: underline;*/
-/*    margin-top: 10px;*/
-/*    margin-bottom: 0px;*/
-
-.bottom{
-    /*border: solid red 1px;*/
-    font-size: 25px;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.article{
-    display: flex;
-    /*border: solid green 1px;*/
-    justify-content: space-between;
-}
-.box{
-    display: flex;
-    flex-direction: column;
-    /*border: solid pink 1px;*/
-    width: 80%;
-    text-align: center;
-}
-h2{
-    background-color: gray;
-    /*border: solid blue 1px;*/
-    margin-top: 0px;
-}
-.box p{
-    font-size: 24px;
-}
-#h1 {
-  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  text-transform: uppercase;
-  font-size: 120px;
-  line-height: .75;
-  margin: 10px 0;
-}
-.title{
-  font-family: "Montserrat";
-  text-align: center;
-  color: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /*height: 40vh;*/
-  letter-spacing: 1px;
-}
-footer {
+body {
     margin: 0;
-    background-color: black;
-    width: 100%;
 }
-
-footer > img {
+.navbar-nav > .nav-item {
     display: flex;
-    justify-content: center;
-    padding: 10px 0px 10px 350px;
+    justify-content: flex-end;
 }
-
-footer > ol {
+.nav-item {
     display: flex;
-    justify-content: space-around;
-    font-size: 24px;
-    list-style: none;
+    justify-content: flex-end;
+    background-color: blue;
 }
-
-ol > li {
-    font-size: 24px;
-    color: white;
-    font-family: "Russo One";
+.nav-link {
+    font-family: "Russo-One";
+    font-size: 30px;
 }
-
-li:hover {
-    background-color: yellow;
-    color: black;
-    border: 2px none yellow ;
-}
-
-@media(max-width: 850px){
-    .article{
-        /*display: block;*/
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    iframe{
-        width: 100%;
-        /*align-items: center;*/
-        /*justify-content: center;*/
-        
-    }
-    .box{
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-    img{
-        width: 100%;
-    }
+.nav-img {
+    margin-right: 800px;
 }
