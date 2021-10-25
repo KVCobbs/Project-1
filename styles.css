@@ -10,14 +10,44 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    font-family: Courier; 
 }
 
 header {
+    top: 0px;
+    position: sticky;
+    text-align: center;
+    width: 100%;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    background-color: gray;
+}
+nav ul {
+    font-family: "Russo One";
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 0;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style: none;
+    width: 90%;
+    height: 100px;
+    margin-top: 0px;
+}
+nav li {
+    margin-top: 30px;
+    text-align: center;
+}
+nav a  {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: seagreen;
+    color: black;
+    border: 2px none seagreen;
 }
 
 body {
@@ -37,13 +67,11 @@ hr {
 }
 
 #FV {
-    font-family: Courier; 
     font-size: 40px;
     font-weight: bold;
 }
 
 #TBJ {
-    font-family: Verdana;
     font-size: 25px;
     font-style: normal;
     margin: auto;
@@ -57,7 +85,6 @@ hr {
     margin: auto;
     margin-bottom: 10px;
     border: 10px outset #3CB371;
-    padding: 10px;
 }
 
 .AA, .BT, .DWMF, .JBT {
@@ -73,6 +100,7 @@ hr {
     margin: auto;
     padding: 15px;
     margin-bottom: 50px;
+    font-family: Courier; 
 }
 
 a {
@@ -108,7 +136,6 @@ a:hover {
 }
 
 .upper {
-  font-family: georgia, arial, sans-serif;
   background-color: #2e2e31;
 }
 
@@ -120,8 +147,9 @@ a:hover {
   text-decoration: none;
   letter-spacing: -3px;
   margin: 0;
+  margin-top: 110px;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
@@ -132,7 +160,7 @@ a:hover {
   padding: .9em .4em;
   position: absolute;
   left: 50%;
-  width: 100%;
+  width: 80%;
   top: 50%;
   display: block;
   border: 15px solid red;
@@ -150,10 +178,19 @@ a:hover {
   box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
 }
 
-textarea {
-  font-size: 24px;
-  border: 8px solid black;
-  background: #ffd73e33;
-  text-align: center;
-  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+footer {
+    margin: 0;
+    background-color: black;
+    width: 100%;
+}
+
+ol > li {
+    font-size: 24px;
+    color: white;
+    font-family: "Russo One";
+}
+li:hover {
+    background-color: yellow;
+    color: black;
+    border: 2px none yellow ;
 }

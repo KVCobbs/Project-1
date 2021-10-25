@@ -10,8 +10,8 @@
 .button {
   width: 140px;
   height: 45px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 11px;
+  font-family: Courier; 
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -43,13 +43,24 @@
     margin-top: 8px;
 }
 
-header {
+#logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 5px;
+    z-index: 101;
+}
+
+banner {
   color: black;
-  height: 60vh;
+  height: 40vh;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  margin: 0;
+  margin-top: 30px;
 }
 
 .title {
@@ -73,11 +84,15 @@ header {
   align-items: center;
 }
 
-.areatext {
-  display: flex;
-  height: 11vh;
-  width: 70vh;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
+footer > img {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 350px;
+}
+
+footer > ol {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    list-style: none;
 }
