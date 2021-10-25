@@ -28,11 +28,19 @@ Functionality
 
 
 
+
+
  Post MVP            |          |                |               |             |
 |---------------------|----------|----------------|---------------|-------------|
 | Component           | Priority | Estimated time | Time invested | Actual time |
 | Hidden Search bar   |          |                |               |             |
 | Logo Homepage link  |          |                |               |             |
 | DarkMode            |          |                |               |             |
-| Social Media Icons with hover effect  |         |               |             |     |
+| Social Media Icons with hover effect  |         |               |             |     
+| hamburger menu with animation  |                |               |             |
+| Animations on the menu.        |                |               |             |             
+
+
+
+
 
