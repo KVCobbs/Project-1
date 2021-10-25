@@ -16,8 +16,6 @@ header {
 
 
 #navbarNav {
-     display: flex;
-    justify-content: flex-end;
 }
 
 .navbar-nav > .nav-item {
@@ -135,7 +133,7 @@ form > p {
     color: black;
     font-size: 35px;
     background-color: yellow;
-    margin-left: 70px;
+    margin-left: 120px;
     
     
 }
